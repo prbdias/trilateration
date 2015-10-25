@@ -40,14 +40,23 @@ class Trilateration
 
     /**
      * Trilateration constructor.
-     * @param bool $inMiles
      */
-    public function __construct($inMiles = false)
+    public function __construct()
     {
         //Assuming elevation as 0
         $this->earthRadius = 6371;
+    }
+
+    /**
+     * Define if the measurements should be in miles
+     *
+     * @param $inMiles
+     */
+    public function setMiles($inMiles)
+    {
         $this->inMiles = $inMiles;
     }
+
 
     private function getKms($distance)
     {

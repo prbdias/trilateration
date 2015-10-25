@@ -1,6 +1,7 @@
 {
     "name": "prbdias/trilateration",
     "description": "Library to determine absolute or relative locations of points by measurement of distances.",
+    "keywords": ["trilateration", "geometry"]
     "type": "library",
     "license": "MIT",
     "authors": [

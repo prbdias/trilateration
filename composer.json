@@ -1,0 +1,17 @@
+{
+    "name": "prbdias/trilateration",
+    "description": "Library to determine absolute or relative locations of points by measurement of distances.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paulo Dias",
+            "email": "prbdias@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Prbdias\\Trilateration\\": "src"
+        }
+    }
+}

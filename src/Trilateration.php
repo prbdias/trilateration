@@ -3,7 +3,7 @@
  * This file is part of the Trilateration package.
  * Created at 24/10/2015, 21:14
  *
- * @author Paulo Dias <pdias@tripadvisor.com>
+ * @author Paulo Dias <prbdias@gmail.com>
  * @file Trilateration.php
  */
 
